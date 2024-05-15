@@ -2,15 +2,59 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
+
 
 .title {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
     margin-bottom: 30px;
+    height: 100px;
     background-color: rgb(4, 187, 111);
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.país {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+
+}
+
+.estados {
+    width: 110px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.estados img {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.estados img:hover {
+    border: 2px solid black;
+}
+
+.estados p {
+    font-size: 0.6rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+
 }
