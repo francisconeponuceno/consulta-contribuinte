@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(248, 239, 228);
+}
+
+body{
+     background-color: rgb(248, 239, 228);
 }
 
 .primeira{
@@ -70,4 +73,68 @@
     height: 600px;
     border-radius: 5px;
     
+}
+
+.segunda {
+    background-color: rgb(74, 74, 74);
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 70px;
+
+}
+
+.seg {
+    background-color: rgb(248, 239, 228);
+    width: 1100px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding-left: 30px;
+    margin: auto;
+    
+}
+
+.principal {
+    font-size: 1.8rem;
+    color: rgb(1, 83, 1);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.beneficios {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.beneficios div {
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(1, 83, 1);
+    
+}
+
+.beneficios h2 {
+    color: rgb(1, 83, 1);
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+.beneficios p {
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+
 }
