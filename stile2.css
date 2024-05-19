@@ -138,3 +138,55 @@ body{
     font-size: 1.4rem;
 
 }
+
+.terceira {
+    background-image: linear-gradient(rgb(29, 29, 29, 0.8), rgb(29, 29, 29, 0.8)), url(img/notb.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.ter {
+    height: 500px;
+    
+}
+
+.ter .principal{
+    align-items: center;
+    justify-content: center;
+    margin-left: 400px;
+}
+
+.informações {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.informações div {
+    width: 280px;
+    height: 300px;
+    margin-top: 30px;
+    background-color: rgb(187, 186, 186);
+    border-radius: 10px;
+
+}
+
+.informações h2{
+    color: rgb(1, 83, 1);
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.informações p {
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
