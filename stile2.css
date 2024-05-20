@@ -26,7 +26,7 @@ body{
 .title h1 {
     font-size: 5rem;
     color: rgb(1, 83, 1);
-    margin-bottom: 30px;
+    justify-content: center;
 
 }
 
@@ -195,6 +195,7 @@ body{
     justify-content: center;
     gap: 50px;
     background-color: rgb(74, 74, 74);
+    align-items: center;
 }
 
 .duvidas {
@@ -215,8 +216,29 @@ body{
     color: rgb(1, 83, 1);
     font-size: 1.4rem;
 }
+
+.quinta .imagem img {
+    margin-right: 30px;
+   height: 500px;
+   width: 500px;
+
+}
 .quinta p {
     font-size: 1.2rem;
     margin-top: 10px;
     
 }
+
+.mapa {
+
+    background-color: rgb(74, 74, 74);
+    margin-top: 10px;
+}
+
+.mapa .bra h1 {
+    color: rgb(1, 83, 1);
+    text-align: center;
+}
+
+.mapa .pais
+
