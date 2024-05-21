@@ -80,7 +80,7 @@ body{
     height: 600px;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    
     padding-top: 70px;
 
 }
@@ -230,15 +230,47 @@ body{
 }
 
 .mapa {
-
-    background-color: rgb(74, 74, 74);
+    text-align: center;
+    background-color: rgb(248, 239, 228);
     margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    
 }
 
 .mapa .bra h1 {
     color: rgb(1, 83, 1);
     text-align: center;
+    font-size: 1.8rem;
+    margin-top: 10px;
 }
 
-.mapa .pais
+.mapa .país {
+    background-color: rgb(74, 74, 74);
+    margin: 30px 30px 30px 30px;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 230px));
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(rgb(29, 29, 29, 0.8), rgb(29, 29, 29, 0.8)), url(img/brasil.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mapa .país img {
+    width: 100;
+    height: 50px;
+   
+}
+
+.mapa .estados {
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+    color: white;
+}
 
