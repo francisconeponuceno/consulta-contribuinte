@@ -1,10 +1,15 @@
 const insEstadual = document.getElementById('insEstadual');
+const buttons = document.getElementById('buttons');
 
+const ExibeOcuta = ( event) => {
+    if (event.target.id == "mostrar") {
+       insEstadual.classList.add('exibir');
+    }
 
-function exibir(){
-    insEstadual.classList.add('exibir');
+    if (event.target.id == "fechar") {
+        insEstadual.classList.remove('exibir');
+     }
+
 }
 
-function outras(){
-    insEstadual.classList.add('ocutar');
-}
+buttons.addEventListener('click', ExibeOcuta);
