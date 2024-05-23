@@ -259,3 +259,19 @@ footer {
     gap: 200px;
 }
 /* fim do estilo footer */
+
+/* CONFIGURAÇÕES DE TELA DESKTOP */
+@media screen and (min-width: 992px){
+
+    
+}
+
+
+/* CONFIGURAÇÕES DO TABLET */
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+}
+
+@media (max-width: 768px){
+
+}
