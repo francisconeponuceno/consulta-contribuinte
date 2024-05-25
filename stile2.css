@@ -448,7 +448,7 @@ footer {
     }
 
     .seg {
-        width: 330px;
+        width: 310px;
         align-items: center;
         justify-content: center;
         flex-direction: column;
@@ -462,7 +462,7 @@ footer {
     }
 
     .beneficios {
-        width: 300px;
+        width: 260px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -470,8 +470,13 @@ footer {
     }
 
     .beneficios div {
-        width: 290px;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
         height: 130px;
+        margin-top: 0px;
+        padding-top: 2px;
+        margin-bottom: 10px;
     }
 
     .beneficios h2 {
@@ -505,5 +510,12 @@ footer {
         gap: 0;
         font-style: normal;
     }
+
+    .exibir img{
+        justify-content: center;
+        width: 150px;
+        
+    }
+    
 }
 
