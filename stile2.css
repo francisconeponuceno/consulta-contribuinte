@@ -429,7 +429,7 @@ footer {
     }
 
     .primeira .btn button {
-        
+        width: 300px;
         margin-bottom: 10px;
     }
 
@@ -448,20 +448,21 @@ footer {
     }
 
     .seg {
-        width: 600px;
-        height: max-content;
+        width: 330px;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding-bottom: 20px;
+        padding-bottom: 1px;
     }
 
     .principal {
         font-size: 1.3rem;
+        align-items: center;
+        justify-content: center;
     }
 
     .beneficios {
-        width: 500px;
+        width: 300px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -469,31 +470,40 @@ footer {
     }
 
     .beneficios div {
-        width: 400px;
+        width: 290px;
+        height: 130px;
     }
 
     .beneficios h2 {
-        font-size: 1.9rem;
+        font-size: 1.3rem;
     }
 
     .beneficios p {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
+
+/*################contatos################*/
     .contatos h3 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        margin-bottom: 2px;
     }
 
     .contatos .contatos-secao {
+        width: 350px;
         font-size: 1rem;
         display: flex;
-        padding-left: 30px;
-        padding-right: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
-    footer {
-        font-size: 0.7rem;
-
+    .footer {
+        flex-direction: column;
+        height: 40px;
+        font-size: 0.8rem;
+        gap: 0;
+        font-style: normal;
     }
 }
 
