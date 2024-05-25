@@ -262,7 +262,7 @@ footer {
 
 /* CONFIGURAÇÕES DE TELA DESKTOP */
 @media screen and (min-width: 992px){
-
+   
     
 }
 
@@ -270,8 +270,114 @@ footer {
 /* CONFIGURAÇÕES DO TABLET */
 @media screen and (min-width: 768px) and (max-width: 992px){
 
+    .seg {
+            width: 900px;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .principal {
+            font-size: 1.8rem;
+        }
+    
+        .beneficios {
+            width: 800px;
+        }
+    
+        .beneficios h2 {
+            font-size: 1.5rem;
+        }
+    
+        .beneficios p {
+            font-size: 1.3rem;
+        }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px){ 
 
+
+    .primeira h1{
+        font-size: 2.5rem;
+        margin-bottom: 5px;
+    }
+
+    .primeira p {
+        font-size: 1.3rem;
+    }
+
+    .primeira .btn {
+        flex-direction: column;
+    
+    }
+
+    .primeira .btn button{
+        margin-bottom: 10px;
+    }
+
+    .primeira img{
+        width: 300px;
+        height: 500px;
+        margin-right: 20px;
+    }
+
+/* ######################################### */
+
+    .segunda{
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 1px;
+
+
+    }
+
+    .seg {
+            width: 600px;
+            height: max-content;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-bottom: 20px;
+        }
+    
+        .principal {
+            font-size: 1.3rem;
+        }
+    
+        .beneficios {
+            width: 500px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+    
+        .beneficios div{
+            width: 400px;
+        }
+
+        .beneficios h2 {
+            font-size: 1.9rem;
+        }
+    
+        .beneficios p {
+            font-size: 1.5rem;
+        }
+
+        .contatos h3 {
+            font-size: 1.5rem;
+        }
+
+        .contatos .contatos-secao {
+            font-size: 1rem;
+            display: flex;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        footer {
+            font-size: 0.7rem;
+            
+        }
 }
