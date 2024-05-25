@@ -381,3 +381,119 @@ footer {
             
         }
 }
+
+/* telas menores celular*/
+@media (max-width: 395px) {
+
+    .primeira {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .peimeira .imagem {
+        width: 380px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .primeira img {
+        width: 350px;
+        height: 500px;
+
+    }
+
+    .consulta{
+        margin-top: 0px;
+
+    }
+
+    .primeira h1 {
+        font-size: 1.8rem;
+        margin-bottom: 5px;
+        padding-top: 2px;
+    }
+
+    .primeira p {
+        font-size: 1rem;
+    }
+
+    .primeira .btn {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .primeira .btn button {
+        
+        margin-bottom: 10px;
+    }
+
+    
+
+    /* ######################################### */
+
+    .segunda {
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 1px;
+
+
+    }
+
+    .seg {
+        width: 600px;
+        height: max-content;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .principal {
+        font-size: 1.3rem;
+    }
+
+    .beneficios {
+        width: 500px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .beneficios div {
+        width: 400px;
+    }
+
+    .beneficios h2 {
+        font-size: 1.9rem;
+    }
+
+    .beneficios p {
+        font-size: 1.5rem;
+    }
+
+    .contatos h3 {
+        font-size: 1.5rem;
+    }
+
+    .contatos .contatos-secao {
+        font-size: 1rem;
+        display: flex;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    footer {
+        font-size: 0.7rem;
+
+    }
+}
+
