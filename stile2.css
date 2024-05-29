@@ -389,11 +389,11 @@ footer {
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        
+        margin-left: 0;
     }
 
     .peimeira .imagem {
-        width: 336px;
+        width: 335px;
         align-items: center;
         justify-content: center;
         padding-top: 0px;
