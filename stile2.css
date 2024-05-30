@@ -396,7 +396,7 @@ footer {
         width: 335px;
         align-items: center;
         justify-content: center;
-        padding-top: 0px;
+        padding: auto;
         margin-top: 0px;
     }
 
@@ -408,6 +408,8 @@ footer {
 
     .consulta{
         margin-top: 0px;
+        align-items: center;
+        justify-content: center;
 
     }
 
@@ -425,12 +427,14 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
+        margin-left: 20px;
     }
 
     .primeira .btn button {
-        width: 300px;
+        width: 280px;
         margin-bottom: 10px;
+        align-items: center;
+        justify-content: center;
     }
 
     
