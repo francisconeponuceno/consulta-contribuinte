@@ -438,6 +438,7 @@ footer {
     }
 
     .primeira .btn button {
+    
         width: 280px;
         margin-bottom: 10px;
         align-items: center;
@@ -459,7 +460,7 @@ footer {
     }
 
     .seg {
-        width: 310px;
+        width: 320px;
         margin: auto;
         align-items: center;
         justify-content: center;
