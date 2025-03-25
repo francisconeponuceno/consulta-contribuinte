@@ -248,6 +248,24 @@ body{
 /* fim do estilo Contados */
 
 /* inicio do estilo footer */
+
+a.externo::after {
+    content: '\00A0\1F517';
+    
+}
+
+a.externo {
+    color: white;
+    text-decoration: none;
+   
+}
+
+a.externo:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+
 footer {
     height: 25px;
     background-color: black;
